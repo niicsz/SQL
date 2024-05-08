@@ -15,3 +15,4 @@ altura decimal(3,2),
 id_aluno int,
 constraint fk_AlunoProfessor foreign key (id_aluno) references aluno (id_aluno)
 ) ;
+alter table aluno add column nacionalidade varchar(30) not null;
